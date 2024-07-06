@@ -1,0 +1,64 @@
+@import url('./css/styles.css');
+@import url('./css/color.css');
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #50AB08;
+    ;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-principal {
+    height: 30rem;
+    
+}
+
+.cartao {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cartao h2 {
+    margin-bottom: 1rem;
+
+}
+
+input {
+    margin-bottom: 1rem;
+    color: var(--cor-1);
+    text-align: center;
+}
+
+.botao-calcular {
+    background-color: var(--cor-4);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.resultado__num {
+    text-align: center;
+}
+
+.resultado__texto {
+    text-align: center;
+}
+
+.text {
+    color: red;
+    text-decoration: underline;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
