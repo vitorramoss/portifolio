@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Programador</title>
+    <link rel="stylesheet" href="portifolio.css">
+    <link rel="shortcut " href="./images/logoVfundoBranco.png">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="container">
+        <a href="#" class="logo"><img src="./images/logoVfundoPreto.png" alt="Logo"></a>
+        <ul class="nav-links">
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Banner -->
+<section class="banner">
+    <div class="container">
+        <div class="banner-content">
+            <h1>Vitor Ramos Ribeiro</h1>
+            <p>Desenvolvedor Web apaixonado por criação de aplicações web.</p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Projetos -->
+<section id="projetos" class="section">
+    <div class="container">
+        <h2>Projetos</h2>
+        <div class="project-card">
+            <img src="./images/Capturar.PNG" alt="Projeto 1">
+            <div class="project-info">
+                <h3>Calculadora de IMC</h3>
+                <p>Neste projeto desenvolvi uma calculadora de IMC (Índice de Massa Coporal)
+                     utilizando JavaScript e o Html e Css para estilização.</p>
+                <a href="../CalculadoraIMC/Atividades Imc/html/calculadora-imc.html" class="btn">Ver Projeto</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="./images/Capturar1.PNG" alt="Projeto 2">
+            <div class="project-info">
+                <h3>Calculadora De Imposto</h3>
+                <p>Neste projeto desenvolvi uma calculadora de imposto, onde inserimos o salário bruto, e se possuir, dependentes. Desenvolvido com JS, Html e Css.</p>
+                <a href="../CalculadoraSalário/calculadora-salario.html class="btn>Ver Projeto</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Habilidades -->
+<section id="habilidades" class="section">
+    <div class="container">
+        <h2>Habilidades</h2>
+        <ul class="skills-list">
+            <li>Linguagens de Programação: HTML, CSS, JavaScript, Python, etc.</li>
+            <li>Frameworks: React, Angular, Vue.js, etc.</li>
+            <li>Banco de Dados: SQL, MongoDB, etc.</li>
+            <li>Ferramentas: Git, Visual Studio Code, etc.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Contato -->
+ <section class="footer">
+<section id="contato" class="section">
+    <div class="container">
+        <h2>Contato</h2>
+        <p>Email: vitaopaidodavi@gmail.com</p>
+        <ul class="social-links">
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </div>
+</section>
+</section>
+
+<!-- Script para menu responsivo -->
+<script>
+    const navToggle = document.querySelector('.navbar .nav-toggle');
+    const navLinks = document.querySelector('.navbar .nav-links');
+
+    navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+</script>
+
+</body>
+</html>
